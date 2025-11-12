@@ -18,6 +18,10 @@ import {
 // Deep clone the planets data to avoid mutations
 const planets = structuredClone(planetsData);
 
+// Set base URL for CSS background image
+const BASE_URL = import.meta.env.BASE_URL;
+document.documentElement.style.setProperty("--background-stars-url", `url("${BASE_URL}assets/background-stars.svg")`);
+
 // Initialize: Load Earth view at page load
 renderPlanetView(
   "overview",

@@ -5,7 +5,13 @@ html {
 body {
   min-height: 100vh;
   font-family: "League Spartan", sans-serif;
-  background: url("/assets/background-stars.svg") center / cover no-repeat;
+  background-image: var(
+    --background-stars-url,
+    url("/assets/background-stars.svg")
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -197,4 +203,3 @@ body {
     }
   }
 }
-
