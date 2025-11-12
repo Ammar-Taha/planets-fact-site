@@ -1,0 +1,7 @@
+@layer normalize, reset, base, tablet, mobile;
+
+@import "normalize.css" layer(normalize);
+@import "./styles/modern-css-reset.css" layer(reset);
+@import "./styles/base.css" layer(base);
+@import "./styles/tablet.css" layer(tablet);
+@import "./styles/mobile.css" layer(mobile);

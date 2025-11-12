@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Planets Fact Site</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header__logo">
+        <img src="/assets/logo.svg" alt="logo" class="header__logo-img" />
+      </a>
+      <button class="header__hamburger" aria-label="Toggle menu">
+        <img
+          src="/assets/icon-hamburger.svg"
+          alt="menu"
+          class="header__hamburger-icon"
+        />
+      </button>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="mercury"
+              >Mercury</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="venus">Venus</a>
+          </li>
+          <li class="header__nav-item">
+            <a
+              href=""
+              class="header__nav-link active-planet"
+              data-planet="earth"
+              >Earth</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="mars">Mars</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="jupiter"
+              >Jupiter</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="saturn">Saturn</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="uranus">Uranus</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link" data-planet="neptune"
+              >Neptune</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="app"></main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
