@@ -11,7 +11,7 @@ A modern, interactive web application showcasing detailed information about the 
 ## ✨ Features
 
 - **Interactive Planet Navigation**: Browse through all 8 planets with smooth transitions
-- **Three Information Views**: 
+- **Three Information Views**:
   - Overview - General planet information
   - Internal Structure - Detailed internal composition
   - Surface Geology - Surface features and geology
@@ -23,11 +23,10 @@ A modern, interactive web application showcasing detailed information about the 
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup
-- **CSS3**: 
+- **CSS3**:
   - CSS Grid & Flexbox for layouts
   - CSS Custom Properties (variables) for theming
   - CSS Layers for organized styling
-  - Media queries for responsive design
   - Modern CSS features (clamp, custom properties)
 - **JavaScript (ES6+)**:
   - ES6 Modules
@@ -76,17 +75,20 @@ A modern, interactive web application showcasing detailed information about the 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/ammar-taha/planets-fact-site.git
 cd planets-fact-site
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -131,6 +133,7 @@ npm run preview
 8. Neptune
 
 Each planet includes:
+
 - Rotation time
 - Revolution time
 - Radius
@@ -178,5 +181,3 @@ This project is open source and available for learning purposes.
 - Design inspiration from [Frontend Mentor](https://www.frontendmentor.io/)
 - Planet data and images from various space resources
 - Built as a practice project for modern web development
-
-
